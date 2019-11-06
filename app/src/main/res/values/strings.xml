@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">najboljiAlbum</string>
+
+    <string name="vrloGanola">vrloGanola</string>
+    <string name="majDiss">majDiss \n (freestyle)   </string>
+    <string name="aMilli">aMilli (Lil Wayne cover)   </string>>
+    <string name="swolePocketShawty">swolePocketShawty (freestyle)</string>>
+    <string name="krajAprila">krajAprila (freestyle)</string>>
+    <string name="madeYouLook">madeYouLook \n (Nas cover)</string>
+    <string name="nestoGanola">nestoGanola (freestyle)</string>
+    <string name="samoSlobodniStil">05042015samoSlobodniStil (freestyle)</string>
+    <string name="ponedjeljak">ponedjeljak</string>
+    <string name="dzonDoe">dzonDoe (freestyle)</string>
+    <string name="izZNC">izZNC</string>
+    <string name="samoSlobodnoStilujem">samoSlobodnoStilujem (freestyle)</string>
+    <string name="tekSamUstao">tekSamUstao</string>
+    <string name="yodaKralj">yodaKralj</string>
+    <string name="iznadGrada">iznadGrada (freestyle)</string>
+</resources>
