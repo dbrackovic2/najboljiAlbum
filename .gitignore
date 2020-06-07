@@ -18,3 +18,4 @@ gradle
 gradle.properties
 gradlew
 settings.gradle
+app/release
