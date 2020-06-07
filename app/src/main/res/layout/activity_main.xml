@@ -6,223 +6,223 @@
     android:background="#0000A0"
     >
 
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#000000"
-    android:gravity="center_horizontal|center_vertical"
-    android:layout_gravity="center_horizontal|center_vertical"
-    tools:context=".MainActivity">
-
-<androidx.constraintlayout.widget.ConstraintLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center_horizontal|center_vertical">
-
-    <RelativeLayout
-        android:id="@+id/fullscreen_content_controls"
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#000000"
+        android:gravity="center_horizontal|center_vertical"
         android:layout_gravity="center_horizontal|center_vertical"
-        android:background="#00000000"
-        android:fitsSystemWindows="true"
-        android:padding="10dp">
+        tools:context="joda.najboljiAlbum.MainActivity">
 
-        <Button
-            android:id="@+id/buttonVrloGanola"
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_toEndOf="@+id/buttonaMilli"
-            android:layout_toRightOf="@+id/buttonaMilli"
-            android:layout_marginTop="4dp"
-            android:background="#2F3A3A"
-            android:hapticFeedbackEnabled="false"
-            android:shadowColor="#9C27B0"
-            android:text="@string/vrloGanola"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="#01B14A"
-            android:textStyle="bold|italic" />
+            android:layout_gravity="center_horizontal|center_vertical">
 
-        <Button
-            android:id="@+id/buttonmajDiss"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/buttonswolePocketShawty"
-            android:layout_alignParentLeft="true"
-            android:background="#FFAB00"
-            android:text="@string/majDiss"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="#D50000"
-            android:textStyle="bold|italic" />
+            <RelativeLayout
+                android:id="@+id/fullscreen_content_controls"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="#00000000"
+                android:fitsSystemWindows="true"
+                android:padding="10dp">
 
-        <Button
-            android:id="@+id/buttonaMilli"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#3241CC"
-            android:layout_alignParentLeft="true"
-            android:layout_marginTop="5dp"
-            android:text="@string/aMilli"
-            android:textAppearance="@style/TextAppearance.AppCompat.Small"
-            android:textColor="#FFFB00"
-            android:textStyle="bold|italic" />
+                <Button
+                    android:id="@+id/buttonVrloGanola"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_toEndOf="@+id/buttonaMilli"
+                    android:layout_toRightOf="@+id/buttonaMilli"
+                    android:layout_marginTop="4dp"
+                    android:background="#2F3A3A"
+                    android:hapticFeedbackEnabled="false"
+                    android:shadowColor="#9C27B0"
+                    android:text="@string/vrloGanola"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="#01B14A"
+                    android:textStyle="bold|italic" />
 
-        <Button
-            android:id="@+id/buttonswolePocketShawty"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/buttondzonDoe"
-            android:layout_alignParentRight="true"
-            android:text="@string/swolePocketShawty"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="#D50000"
-            android:textStyle="bold" />
+                <Button
+                    android:id="@+id/buttonmajDiss"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/buttonswolePocketShawty"
+                    android:layout_alignParentLeft="true"
+                    android:background="#FFAB00"
+                    android:text="@string/majDiss"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="#D50000"
+                    android:textStyle="bold|italic" />
 
-        <Button
-            android:id="@+id/buttondzonDoe"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/buttonVrloGanola"
-            android:layout_alignParentLeft="true"
-            android:layout_marginTop="2dp"
-            android:background="#7AC1CC"
-            android:text="@string/dzonDoe"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textStyle="bold" />
+                <Button
+                    android:id="@+id/buttonaMilli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#3241CC"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/aMilli"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="#FFFB00"
+                    android:textStyle="bold|italic" />
 
-        <Button
-            android:id="@+id/buttonmadeYouLook"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/buttonswolePocketShawty"
-            android:layout_alignParentRight="true"
-            android:background="#D50000"
-            android:text="@string/madeYouLook"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="#FFFFFF"
-            android:textStyle="bold" />
+                <Button
+                    android:id="@+id/buttonswolePocketShawty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/buttondzonDoe"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/swolePocketShawty"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="#D50000"
+                    android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/buttonyodaKralj"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/buttonmadeYouLook"
-            android:layout_alignParentLeft="true"
-            android:layout_marginTop="2dp"
-            android:background="#D400AA"
-            android:text="@string/yodaKralj"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-            android:textColor="#FFD600"
-            android:textStyle="bold" />
+                <Button
+                    android:id="@+id/buttondzonDoe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/buttonVrloGanola"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="2dp"
+                    android:background="#7AC1CC"
+                    android:text="@string/dzonDoe"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/buttonsamoSlobodnoStilujem"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/buttonyodaKralj"
-            android:layout_alignParentRight="true"
-            android:layout_marginTop="1dp"
-            android:background="#FF6D00"
-            android:text="@string/samoSlobodnoStilujem"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="#000000"
-            android:textStyle="bold" />
+                <Button
+                    android:id="@+id/buttonmadeYouLook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/buttonswolePocketShawty"
+                    android:layout_alignParentRight="true"
+                    android:background="#D50000"
+                    android:text="@string/madeYouLook"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/button05042015samoSlobodniStil"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/buttonsamoSlobodnoStilujem"
-            android:layout_alignParentLeft="true"
-            android:layout_marginTop="2dp"
-            android:background="#FFFFFF"
-            android:text="@string/samoSlobodniStil"
-            android:textAppearance="@style/TextAppearance.AppCompat.Small"
-            android:textColor="#6200EA"
-            android:textStyle="bold" />
+                <Button
+                    android:id="@+id/buttonyodaKralj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/buttonmadeYouLook"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="2dp"
+                    android:background="#D400AA"
+                    android:text="@string/yodaKralj"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="#FFD600"
+                    android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/buttoniznadGrada"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/button05042015samoSlobodniStil"
-            android:layout_alignParentLeft="true"
-            android:background="#00C853"
-            android:text="@string/iznadGrada"
-            android:textAppearance="@style/TextAppearance.AppCompat.Small"
-            android:textColor="#FBC02D"
-            android:textStyle="bold" />
+                <Button
+                    android:id="@+id/buttonsamoSlobodnoStilujem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/buttonyodaKralj"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="1dp"
+                    android:background="#FF6D00"
+                    android:text="@string/samoSlobodnoStilujem"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/buttonizZNC"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/buttoniznadGrada"
-            android:layout_marginTop="4dp"
-            android:layout_alignParentLeft="true"
-            android:background="#000000"
-            android:text="@string/izZNC"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-            android:textColor="#D50000"
-            android:textStyle="bold" />
+                <Button
+                    android:id="@+id/button05042015samoSlobodniStil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/buttonsamoSlobodnoStilujem"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="2dp"
+                    android:background="#FFFFFF"
+                    android:text="@string/samoSlobodniStil"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="#6200EA"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/buttoniznadGrada"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/button05042015samoSlobodniStil"
+                    android:layout_alignParentLeft="true"
+                    android:background="#00C853"
+                    android:text="@string/iznadGrada"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="#FBC02D"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/buttonizZNC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/buttoniznadGrada"
+                    android:layout_marginTop="4dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#000000"
+                    android:text="@string/izZNC"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="#D50000"
+                    android:textStyle="bold" />
 
 
-        <Button
-            android:id="@+id/buttonnestoGanola"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/button05042015samoSlobodniStil"
-            android:layout_alignParentRight="true"
-            android:layout_marginTop="1dp"
-            android:background="#D50000"
-            android:text="@string/nestoGanola"
-            android:textAppearance="@style/TextAppearance.AppCompat.Small"
-            android:textColor="#000000"
-            android:textStyle="bold" />
+                <Button
+                    android:id="@+id/buttonnestoGanola"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/button05042015samoSlobodniStil"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="1dp"
+                    android:background="#D50000"
+                    android:text="@string/nestoGanola"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/buttontekSamUstao"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/buttonponedjeljak"
-            android:layout_marginTop="5dp"
-            android:layout_alignParentLeft="true"
-            android:background="#AEEA00"
-            android:text="@string/tekSamUstao"
-            android:textAppearance="@style/TextAppearance.AppCompat.Small"
-            android:textColor="#88003C"
-            android:textStyle="bold" />
+                <Button
+                    android:id="@+id/buttontekSamUstao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/buttonponedjeljak"
+                    android:layout_marginTop="5dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#AEEA00"
+                    android:text="@string/tekSamUstao"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="#88003C"
+                    android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/buttonponedjeljak"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/buttonnestoGanola"
-            android:layout_alignParentRight="true"
-            android:layout_marginTop="5dp"
-            android:background="#55534D"
-            android:text="@string/ponedjeljak"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-            android:textColor="#00BFA5"
-            android:textStyle="bold" />
+                <Button
+                    android:id="@+id/buttonponedjeljak"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/buttonnestoGanola"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="5dp"
+                    android:background="#55534D"
+                    android:text="@string/ponedjeljak"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="#00BFA5"
+                    android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/buttonkrajAprila"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/buttonponedjeljak"
-            android:layout_alignParentRight="true"
-            android:layout_marginTop="4dp"
-            android:background="#1A237E"
-            android:text="@string/krajAprila"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
-            android:textColor="#00E676"
-            android:textStyle="bold" />
+                <Button
+                    android:id="@+id/buttonkrajAprila"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/buttonponedjeljak"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="4dp"
+                    android:background="#1A237E"
+                    android:text="@string/krajAprila"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+                    android:textColor="#00E676"
+                    android:textStyle="bold" />
 
-    </RelativeLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
-</FrameLayout>
+            </RelativeLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
 </ScrollView>
